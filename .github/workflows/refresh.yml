@@ -1,0 +1,40 @@
+name: Refresh catalogue weekly
+
+# ────── WHEN it runs ──────
+on:
+  schedule:
+    - cron: '0 1 * * *'
+
+  workflow_dispatch:      # allow manual “Run workflow” button
+
+# ────── WHAT it does ──────
+permissions:
+  contents: write         # allow the job to push back to the repo
+
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scraper
+        run: python scrape_njit.py
+
+      - name: Commit updated catalogue
+        run: |
+          git config user.name  "Schedule-Bot"
+          git config user.email "bot@noreply.github.com"
+          git add all_sections.json
+          # --if-changed prevents empty commits
+          git diff --cached --quiet || git commit -m "auto: refresh catalogue"
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
