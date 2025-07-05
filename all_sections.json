@@ -187,7 +187,7 @@
    "days": "W",
    "start": "08:30",
    "end": "12:50",
-   "location": "WEST LECT 2",
+   "location": "CAMP 236C",
    "section": "005",
    "instructor": "Sobers, Sophia",
    "title": "COLOR AND COMPOSITION"
@@ -197,7 +197,7 @@
    "days": "W",
    "start": "08:30",
    "end": "12:50",
-   "location": "CAMP 236D",
+   "location": "WEST LECT 2",
    "section": "007",
    "instructor": null,
    "title": "COLOR AND COMPOSITION"
@@ -227,7 +227,7 @@
    "days": "R",
    "start": "08:30",
    "end": "12:50",
-   "location": "CAMP 236D",
+   "location": "WEST LECT 2",
    "section": "013",
    "instructor": null,
    "title": "COLOR AND COMPOSITION"
@@ -237,7 +237,7 @@
    "days": "R",
    "start": "08:30",
    "end": "12:50",
-   "location": "CAMP 236G",
+   "location": "WEST LECT 2",
    "section": "015",
    "instructor": null,
    "title": "COLOR AND COMPOSITION"
@@ -283,7 +283,7 @@
    "days": "TW",
    "start": "11:30",
    "end": "12:50",
-   "location": "KUPF 118",
+   "location": "CKB 303",
    "section": "HM1",
    "instructor": null,
    "title": "HISTORY OF ARCHITECTURE"
@@ -2049,7 +2049,7 @@
    "days": "FW",
    "start": "13:00",
    "end": "17:20",
-   "location": "KUPF 205",
+   "location": "CKB 126",
    "section": "H01",
    "instructor": "Devan, Caroline",
    "title": "CONCEPTS IN BIOLOGY"
@@ -2059,7 +2059,7 @@
    "days": "FMW",
    "start": "13:00",
    "end": "15:50",
-   "location": "CKB 302",
+   "location": "KUPF 205",
    "section": "H03",
    "instructor": "Devan, Caroline",
    "title": "CONCEPTS IN BIOLOGY"
@@ -2319,7 +2319,7 @@
    "days": "MW",
    "start": "13:00",
    "end": "15:50",
-   "location": "CKB 124",
+   "location": "FMH 403",
    "section": "001",
    "instructor": "Bucher, Dirk",
    "title": "NEUROPHYSIOLOGY"
@@ -2329,7 +2329,7 @@
    "days": "MW",
    "start": "13:00",
    "end": "15:50",
-   "location": "CKB 124",
+   "location": "FMH 403",
    "section": "HM1",
    "instructor": "Bucher, Dirk",
    "title": "NEUROPHYSIOLOGY"
@@ -2601,7 +2601,7 @@
    "days": "FT",
    "start": "14:30",
    "end": "16:35",
-   "location": "CKB 303",
+   "location": "FENS 636",
    "section": "003",
    "instructor": "Schesser, Joel",
    "title": "INTRO BIOMEDICAL ENGINEERING I"
@@ -2611,7 +2611,7 @@
    "days": "FT",
    "start": "14:30",
    "end": "16:35",
-   "location": "FENS 640",
+   "location": "CKB 303",
    "section": "HM1",
    "instructor": "Schesser, Joel",
    "title": "INTRO BIOMEDICAL ENGINEERING I"
@@ -2633,7 +2633,7 @@
    "days": "MRT",
    "start": "10:00",
    "end": "14:20",
-   "location": "FENS 636",
+   "location": "KUPF 211",
    "section": "003",
    "instructor": "Pal, Saikat",
    "title": "INTRO BIOMED ENGR II"
@@ -2889,7 +2889,7 @@
    "days": "FM",
    "start": "10:00",
    "end": "14:20",
-   "location": "GITC 1100",
+   "location": "FENS 698",
    "section": "003",
    "instructor": "Collins, George",
    "title": "CAPSTONE I"
@@ -2899,7 +2899,7 @@
    "days": "FT",
    "start": "08:30",
    "end": "11:20",
-   "location": "FENS 698",
+   "location": "GITC 1100",
    "section": "HM1",
    "instructor": "Schesser, Joel",
    "title": "CAPSTONE I"
@@ -2909,7 +2909,7 @@
    "days": "FM",
    "start": "10:00",
    "end": "14:20",
-   "location": "GITC 1100",
+   "location": "FENS 698",
    "section": "HM3",
    "instructor": "Schesser, Joel",
    "title": "CAPSTONE I"
@@ -4231,7 +4231,7 @@
    "days": "RT",
    "start": "16:00",
    "end": "17:20",
-   "location": "GITC 1100",
+   "location": "KUPF 107",
    "section": "001",
    "instructor": "Edens, Gregory",
    "title": "FUND OF CHEMICAL PRINCIPLES I"
@@ -4241,7 +4241,7 @@
    "days": "FT",
    "start": "16:00",
    "end": "17:20",
-   "location": "FMH 306",
+   "location": "GITC 1100",
    "section": "003",
    "instructor": "Edens, Gregory",
    "title": "FUND OF CHEMICAL PRINCIPLES I"
@@ -4263,7 +4263,7 @@
    "days": "FT",
    "start": "13:00",
    "end": "14:20",
-   "location": "CKB 124",
+   "location": "TIER LECT 2",
    "section": "001",
    "instructor": "Peels, Mieke",
    "title": "GENERAL CHEMISTRY I"
@@ -4273,7 +4273,7 @@
    "days": "FW",
    "start": "10:00",
    "end": "14:20",
-   "location": "TIER LECT 2",
+   "location": "FMH 306",
    "section": "003",
    "instructor": "Peels, Mieke",
    "title": "GENERAL CHEMISTRY I"
@@ -4283,7 +4283,7 @@
    "days": "FR",
    "start": "08:30",
    "end": "14:20",
-   "location": "TIER LECT 2",
+   "location": "FMH 213",
    "section": "005",
    "instructor": "Peels, Mieke",
    "title": "GENERAL CHEMISTRY I"
@@ -4293,7 +4293,7 @@
    "days": "RW",
    "start": "08:30",
    "end": "14:20",
-   "location": "FMH 306",
+   "location": "TIER LECT 2",
    "section": "007",
    "instructor": "DeSantis, Christopher",
    "title": "GENERAL CHEMISTRY I"
@@ -4313,7 +4313,7 @@
    "days": "TW",
    "start": "11:30",
    "end": "14:20",
-   "location": "TIER LECT 2",
+   "location": "FMH 213",
    "section": "011",
    "instructor": "DeSantis, Christopher",
    "title": "GENERAL CHEMISTRY I"
@@ -4323,7 +4323,7 @@
    "days": "RT",
    "start": "13:00",
    "end": "17:20",
-   "location": "TIER LECT 1",
+   "location": "TIER LECT 2",
    "section": "013",
    "instructor": "Koh, Kevin",
    "title": "GENERAL CHEMISTRY I"
@@ -4333,7 +4333,7 @@
    "days": "RT",
    "start": "13:00",
    "end": "14:20",
-   "location": "TIER LECT 1",
+   "location": "KUPF 105",
    "section": "015",
    "instructor": "Koh, Kevin",
    "title": "GENERAL CHEMISTRY I"
@@ -4353,7 +4353,7 @@
    "days": "MW",
    "start": "13:00",
    "end": "15:50",
-   "location": "FMH 306",
+   "location": "TIER LECT 1",
    "section": "019",
    "instructor": "DePaolo, Patrick",
    "title": "GENERAL CHEMISTRY I"
@@ -4393,7 +4393,7 @@
    "days": "RW",
    "start": "08:30",
    "end": "15:50",
-   "location": "KUPF 202",
+   "location": "KUPF 107",
    "section": "027",
    "instructor": "Peels, Mieke",
    "title": "GENERAL CHEMISTRY I"
@@ -4503,7 +4503,7 @@
    "days": "FT",
    "start": "11:30",
    "end": "14:20",
-   "location": "TIER 108",
+   "location": "TIER LECT 2",
    "section": "H03",
    "instructor": "Koh, Kevin",
    "title": "GENERAL CHEMISTRY I"
@@ -5035,7 +5035,7 @@
    "days": "FW",
    "start": "18:00",
    "end": "22:00",
-   "location": "TIER 114",
+   "location": "TIER 208",
    "section": "101",
    "instructor": null,
    "title": "CHEMICAL TECHNOLOGY"
@@ -6527,7 +6527,7 @@
    "days": "RT",
    "start": "11:30",
    "end": "12:50",
-   "location": "CKB 222",
+   "location": "KUPF 211",
    "section": "007",
    "instructor": "Arafeh, Bassel",
    "title": "PROGRAMMING LANG CONCEPTS"
@@ -6537,7 +6537,7 @@
    "days": "RT",
    "start": "11:30",
    "end": "12:50",
-   "location": "CKB 215",
+   "location": "KUPF 211",
    "section": "009",
    "instructor": "Arafeh, Bassel",
    "title": "PROGRAMMING LANG CONCEPTS"
@@ -6547,7 +6547,7 @@
    "days": "RT",
    "start": "11:30",
    "end": "12:50",
-   "location": "KUPF 211",
+   "location": "CKB 320",
    "section": "011",
    "instructor": "Arafeh, Bassel",
    "title": "PROGRAMMING LANG CONCEPTS"
@@ -6567,7 +6567,7 @@
    "days": "RT",
    "start": "14:30",
    "end": "15:50",
-   "location": "KUPF 117",
+   "location": "KUPF 210",
    "section": "015",
    "instructor": "Arafeh, Bassel",
    "title": "PROGRAMMING LANG CONCEPTS"
@@ -6577,7 +6577,7 @@
    "days": "RT",
    "start": "14:30",
    "end": "15:50",
-   "location": "KUPF 117",
+   "location": "CKB 314",
    "section": "017",
    "instructor": "Arafeh, Bassel",
    "title": "PROGRAMMING LANG CONCEPTS"
@@ -8131,7 +8131,7 @@
    "days": "FM",
    "start": "08:30",
    "end": "15:05",
-   "location": "TIER 112",
+   "location": "FMH 109",
    "section": "003",
    "instructor": "Raj, Ratna",
    "title": "ENERGY CONVERSION"
@@ -8189,7 +8189,7 @@
    "days": "RTW",
    "start": "08:30",
    "end": "14:20",
-   "location": "FMH 304",
+   "location": "ECEC 115",
    "section": "HM1",
    "instructor": "Feknous, Mohammed",
    "title": "ELECTRONIC CIRCUITS DESIGN"
@@ -8201,7 +8201,7 @@
    "days": "FRT",
    "start": "10:00",
    "end": "16:35",
-   "location": "FMH 109",
+   "location": "ECEC 115",
    "section": "001",
    "instructor": "Tsybeskov, Leonid",
    "title": "INTRODUCTION TO SEMICONDUCTORS"
@@ -8631,7 +8631,7 @@
    "days": "MR",
    "start": "10:45",
    "end": "14:20",
-   "location": "FMH 403",
+   "location": "FMH 316",
    "section": "001",
    "instructor": "Shekhar, Prateek",
    "title": "CIRCUIT ANALYSIS DC AND AC"
@@ -8641,7 +8641,7 @@
    "days": "R",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 204A",
+   "location": "FMH 205",
    "section": "101",
    "instructor": "Ghrayeb, Ashraf",
    "title": "CIRCUIT ANALYSIS DC AND AC"
@@ -8651,7 +8651,7 @@
    "days": "T",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 313",
+   "location": "FMH 304",
    "section": "105",
    "instructor": null,
    "title": "CIRCUIT ANALYSIS DC AND AC"
@@ -8699,7 +8699,7 @@
    "days": "W",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 108",
+   "location": "FMH 316",
    "section": "101",
    "instructor": "Pepe, Russell",
    "title": "INTRO TO COMMUNICATION SYSTEMS"
@@ -8709,7 +8709,7 @@
    "days": "M",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 304",
+   "location": "FMH 403",
    "section": "103",
    "instructor": "Pepe, Russell",
    "title": "INTRO TO COMMUNICATION SYSTEMS"
@@ -8721,7 +8721,7 @@
    "days": "FM",
    "start": "10:45",
    "end": "15:05",
-   "location": "FMH 304",
+   "location": "CKB 207",
    "section": "001",
    "instructor": "Kayzman, Victor",
    "title": "INTRO TO DIGITAL ELECTRONICS"
@@ -8775,7 +8775,7 @@
    "days": "T",
    "start": "18:00",
    "end": "22:10",
-   "location": "FMH 318",
+   "location": "FMH 412",
    "section": "103",
    "instructor": null,
    "title": "CIRCUIT MEASUREMENTS I"
@@ -8787,7 +8787,7 @@
    "days": "MR",
    "start": "11:30",
    "end": "17:20",
-   "location": "FMH 316",
+   "location": "FMH 405",
    "section": "001",
    "instructor": "Rabie, Mohammad",
    "title": "INTEGRATED CIRCUIT APPLCTNS"
@@ -8797,7 +8797,7 @@
    "days": "T",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 403",
+   "location": "FMH 316",
    "section": "101",
    "instructor": "Rabie, Mohammad",
    "title": "INTEGRATED CIRCUIT APPLCTNS"
@@ -8831,7 +8831,7 @@
    "days": "MW",
    "start": "08:30",
    "end": "10:35",
-   "location": "CKB 214",
+   "location": "FMH 318",
    "section": "001",
    "instructor": "De La Cruz, Albert",
    "title": "ANALOG DIGITAL ELECT NON MAJ"
@@ -8921,7 +8921,7 @@
    "days": "MW",
    "start": "11:30",
    "end": "16:35",
-   "location": "CKB 126",
+   "location": "FMH 314",
    "section": "001",
    "instructor": "Yaramothu, Chang",
    "title": "EMBEDDED SYSTEMS II"
@@ -8933,7 +8933,7 @@
    "days": "T",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 404",
+   "location": "FMH 109",
    "section": "101",
    "instructor": "Vincent, Michael",
    "title": "POWER GENERATION & DISTRBTN"
@@ -10155,7 +10155,7 @@
    "days": "FMRT",
    "start": "13:00",
    "end": "17:20",
-   "location": "MALL PC36",
+   "location": "KUPF 205",
    "section": "005",
    "instructor": "Lubliner, David",
    "title": "ANALYTICAL METH FOR ENGR APPL"
@@ -10165,7 +10165,7 @@
    "days": "MRW",
    "start": "11:30",
    "end": "15:50",
-   "location": "FMH 305",
+   "location": "KUPF 205",
    "section": "007",
    "instructor": "Lubliner, David",
    "title": "ANALYTICAL METH FOR ENGR APPL"
@@ -14691,7 +14691,7 @@
    "days": "FMRT",
    "start": "10:00",
    "end": "12:30",
-   "location": "TIER 105",
+   "location": "TIER 113",
    "section": "005",
    "instructor": "Jean, Jason",
    "title": "UNIVERSITY MATHEMATICS B"
@@ -14701,7 +14701,7 @@
    "days": "FMRW",
    "start": "08:30",
    "end": "14:00",
-   "location": "TIER 113",
+   "location": "TIER 107",
    "section": "007",
    "instructor": "Jean, Jason",
    "title": "UNIVERSITY MATHEMATICS B"
@@ -14711,7 +14711,7 @@
    "days": "FMRT",
    "start": "10:00",
    "end": "15:50",
-   "location": "FMH 207",
+   "location": "CULM 110",
    "section": "009",
    "instructor": null,
    "title": "UNIVERSITY MATHEMATICS B"
@@ -14743,7 +14743,7 @@
    "days": "FMRT",
    "start": "13:00",
    "end": "17:20",
-   "location": "TIER 105",
+   "location": "TIER 112",
    "section": "001",
    "instructor": "McKenzie, Howard",
    "title": "UNIVERSITY MATHEMATICS B II"
@@ -14753,7 +14753,7 @@
    "days": "FMRT",
    "start": "10:00",
    "end": "12:30",
-   "location": "TIER 108",
+   "location": "TIER 111",
    "section": "003",
    "instructor": "Peltekov, Ivaylo",
    "title": "UNIVERSITY MATHEMATICS B II"
@@ -14773,7 +14773,7 @@
    "days": "FMRT",
    "start": "11:30",
    "end": "17:00",
-   "location": "TIER 107",
+   "location": "TIER 108",
    "section": "007",
    "instructor": null,
    "title": "UNIVERSITY MATHEMATICS B II"
@@ -14835,7 +14835,7 @@
    "days": "MRTW",
    "start": "08:30",
    "end": "12:50",
-   "location": "TIER 107",
+   "location": "CKB 223",
    "section": "001",
    "instructor": null,
    "title": "CALCULUS I"
@@ -14865,7 +14865,7 @@
    "days": "FMRT",
    "start": "11:30",
    "end": "18:00",
-   "location": "TIER 106",
+   "location": "FMH 207",
    "section": "007",
    "instructor": null,
    "title": "CALCULUS I"
@@ -14875,7 +14875,7 @@
    "days": "FMRT",
    "start": "10:00",
    "end": "15:50",
-   "location": "TIER 113",
+   "location": "TIER 107",
    "section": "009",
    "instructor": "Davis, Joshua",
    "title": "CALCULUS I"
@@ -14885,7 +14885,7 @@
    "days": "FMRT",
    "start": "08:30",
    "end": "09:50",
-   "location": "TIER 105",
+   "location": "CULM 110",
    "section": "011",
    "instructor": null,
    "title": "CALCULUS I"
@@ -14895,7 +14895,7 @@
    "days": "FMRT",
    "start": "08:30",
    "end": "09:50",
-   "location": "TIER 106",
+   "location": "GITC 1100",
    "section": "013",
    "instructor": "Bose, Prianka",
    "title": "CALCULUS I"
@@ -14905,7 +14905,7 @@
    "days": "FRTW",
    "start": "08:30",
    "end": "17:20",
-   "location": "TIER 111",
+   "location": "TIER 108",
    "section": "015",
    "instructor": "Elassa, Aomar",
    "title": "CALCULUS I"
@@ -14925,7 +14925,7 @@
    "days": "FMRT",
    "start": "10:00",
    "end": "14:00",
-   "location": "TIER 106",
+   "location": "TIER 108",
    "section": "019",
    "instructor": null,
    "title": "CALCULUS I"
@@ -14965,7 +14965,7 @@
    "days": "FMRW",
    "start": "08:30",
    "end": "15:50",
-   "location": "TIER 112",
+   "location": "TIER 106",
    "section": "027",
    "instructor": "Bekhit, George",
    "title": "CALCULUS I"
@@ -14985,7 +14985,7 @@
    "days": "FMRT",
    "start": "11:30",
    "end": "18:00",
-   "location": "TIER 113",
+   "location": "TIER 106",
    "section": "031",
    "instructor": "DeGroot, Jack",
    "title": "CALCULUS I"
@@ -14995,7 +14995,7 @@
    "days": "FMRT",
    "start": "13:00",
    "end": "17:20",
-   "location": "CKB 120",
+   "location": "GITC 1400",
    "section": "033",
    "instructor": null,
    "title": "CALCULUS I"
@@ -15005,7 +15005,7 @@
    "days": "FMRT",
    "start": "14:30",
    "end": "15:50",
-   "location": "FMH 306",
+   "location": "TIER 111",
    "section": "035",
    "instructor": null,
    "title": "CALCULUS I"
@@ -15055,7 +15055,7 @@
    "days": "FW",
    "start": "18:00",
    "end": "20:50",
-   "location": "TIER 111",
+   "location": "TIER 113",
    "section": "101",
    "instructor": "Porterfield-Jackson, Shareef",
    "title": "CALCULUS I"
@@ -15067,7 +15067,7 @@
    "days": "FMTW",
    "start": "10:00",
    "end": "14:20",
-   "location": "CKB 106",
+   "location": "FMH 408",
    "section": "001",
    "instructor": "Ro, Je Hyun",
    "title": "CALCULUS II"
@@ -15077,7 +15077,7 @@
    "days": "FMTW",
    "start": "10:00",
    "end": "11:20",
-   "location": "CULM 110",
+   "location": "CKB 120",
    "section": "003",
    "instructor": "Ro, Je Hyun",
    "title": "CALCULUS II"
@@ -15117,7 +15117,7 @@
    "days": "FMRT",
    "start": "08:30",
    "end": "17:20",
-   "location": "CKB 317",
+   "location": "FMH 110",
    "section": "011",
    "instructor": "Schmidt, Donivyn",
    "title": "CALCULUS II"
@@ -15127,7 +15127,7 @@
    "days": "FMRT",
    "start": "08:30",
    "end": "17:20",
-   "location": "CKB 223",
+   "location": "FMH 408",
    "section": "013",
    "instructor": "Sherman, Thomas",
    "title": "CALCULUS II"
@@ -15137,7 +15137,7 @@
    "days": "FRTW",
    "start": "10:00",
    "end": "11:20",
-   "location": "FMH 213",
+   "location": "CKB 223",
    "section": "015",
    "instructor": "Flax, Amy",
    "title": "CALCULUS II"
@@ -15177,7 +15177,7 @@
    "days": "FMRT",
    "start": "13:00",
    "end": "15:30",
-   "location": "CULM 110",
+   "location": "CKB 106",
    "section": "023",
    "instructor": "Tsipenyuk, Natalya",
    "title": "CALCULUS II"
@@ -15187,7 +15187,7 @@
    "days": "FMRT",
    "start": "13:00",
    "end": "15:30",
-   "location": "TIER 106",
+   "location": "TIER 113",
    "section": "025",
    "instructor": "Sherman, Thomas",
    "title": "CALCULUS II"
@@ -15207,7 +15207,7 @@
    "days": "FMRW",
    "start": "08:30",
    "end": "09:50",
-   "location": "CKB 120",
+   "location": "TIER 113",
    "section": "029",
    "instructor": "Wicke, Kristina",
    "title": "CALCULUS II"
@@ -15227,7 +15227,7 @@
    "days": "FMRT",
    "start": "08:30",
    "end": "11:00",
-   "location": "FMH 407",
+   "location": "CKB 313",
    "section": "H01",
    "instructor": "Bechtold, John",
    "title": "CALCULUS II"
@@ -15549,7 +15549,7 @@
    "days": "FRT",
    "start": "13:00",
    "end": "14:20",
-   "location": "FMH 203",
+   "location": "FMH 106",
    "section": "009",
    "instructor": "Alptekin, Sener",
    "title": "DIFFERENTIAL EQUATIONS"
@@ -15559,7 +15559,7 @@
    "days": "FRT",
    "start": "14:30",
    "end": "15:50",
-   "location": "FMH 309",
+   "location": " ",
    "section": "011",
    "instructor": "Bouayad, Rachid",
    "title": "DIFFERENTIAL EQUATIONS"
@@ -16553,7 +16553,7 @@
    "days": "FM",
    "start": "08:30",
    "end": "15:50",
-   "location": "ME 232",
+   "location": "FMH 108",
    "section": "001",
    "instructor": "Samardzic, Veljko",
    "title": "ENGR MATERLS & PROCESSES"
@@ -16623,7 +16623,7 @@
    "days": "MT",
    "start": "11:30",
    "end": "15:05",
-   "location": "FMH 310",
+   "location": "ME 232",
    "section": "HM1",
    "instructor": "Samardzic, Veljko",
    "title": "ENGR MATERLS & PROCESSES"
@@ -16633,7 +16633,7 @@
    "days": "TW",
    "start": "10:00",
    "end": "12:05",
-   "location": "ME 232",
+   "location": "KUPF 207",
    "section": "HM3",
    "instructor": "Chester, Shawn",
    "title": "ENGR MATERLS & PROCESSES"
@@ -16959,7 +16959,7 @@
    "days": "FW",
    "start": "10:00",
    "end": "12:50",
-   "location": "CKB 217",
+   "location": "KUPF 205",
    "section": "001",
    "instructor": "Balogh, Peter",
    "title": "HEAT TRANSFER"
@@ -17089,7 +17089,7 @@
    "days": "RW",
    "start": "13:00",
    "end": "15:50",
-   "location": "CKB 317",
+   "location": "CKB 223",
    "section": "001",
    "instructor": "Rosato, Anthony",
    "title": "DYNAMICS OF SPACE FLIGHT"
@@ -17251,7 +17251,7 @@
    "days": "MW",
    "start": "10:00",
    "end": "12:30",
-   "location": "CULM LECT 2",
+   "location": "CKB 317",
    "section": "003",
    "instructor": "Saigal, Sunil",
    "title": "STATICS"
@@ -17315,7 +17315,7 @@
    "days": "FW",
    "start": "11:30",
    "end": "14:20",
-   "location": "COLT 422",
+   "location": "KUPF 202",
    "section": "001",
    "instructor": "Milano, Geraldine",
    "title": "STRENGTH OF MATERIALS"
@@ -17335,7 +17335,7 @@
    "days": "M",
    "start": "18:00",
    "end": "22:00",
-   "location": "KUPF 203",
+   "location": "COLT 422",
    "section": "101",
    "instructor": "Milano, Geraldine",
    "title": "STRENGTH OF MATERIALS"
@@ -17369,7 +17369,7 @@
    "days": "RT",
    "start": "08:30",
    "end": "11:20",
-   "location": "KUPF 208",
+   "location": "COLT 422",
    "section": "001",
    "instructor": "Castro, Eduardo",
    "title": "STRENGTH OF MATERIALS FOR CE"
@@ -17379,7 +17379,7 @@
    "days": "RT",
    "start": "08:30",
    "end": "11:20",
-   "location": "KUPF 208",
+   "location": "COLT 422",
    "section": "003",
    "instructor": "Castro, Eduardo",
    "title": "STRENGTH OF MATERIALS FOR CE"
@@ -17389,7 +17389,7 @@
    "days": "R",
    "start": "14:30",
    "end": "20:50",
-   "location": "COLT 422",
+   "location": "CKB 120",
    "section": "101",
    "instructor": "Castro, Eduardo",
    "title": "STRENGTH OF MATERIALS FOR CE"
@@ -17581,7 +17581,7 @@
    "days": "T",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 405",
+   "location": "COLT 422",
    "section": "101",
    "instructor": "Sengupta, Arijit",
    "title": "STRNGTH OF MATERIALS FOR TEC"
@@ -17593,7 +17593,7 @@
    "days": "RT",
    "start": "13:00",
    "end": "15:05",
-   "location": "GITC 1100",
+   "location": "MALL PC37",
    "section": "001",
    "instructor": null,
    "title": "ANAL & DGN MACHN ELEMS I"
@@ -17603,7 +17603,7 @@
    "days": "M",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 305",
+   "location": "MALL PC39",
    "section": "101",
    "instructor": "Belal, Ahmed",
    "title": "ANAL & DGN MACHN ELEMS I"
@@ -17625,7 +17625,7 @@
    "days": "M",
    "start": "18:00",
    "end": "22:00",
-   "location": "ME 214",
+   "location": "GITC 2315A",
    "section": "103",
    "instructor": "Rahman, Sahidur",
    "title": "ANAL & DGN MACHN ELEM II"
@@ -17693,7 +17693,7 @@
    "days": "W",
    "start": "18:00",
    "end": "22:00",
-   "location": "FMH 309",
+   "location": "MALL PC39",
    "section": "101",
    "instructor": "Botros, Mina",
    "title": "DYNAMICS OF MACHINERY"
@@ -17705,7 +17705,7 @@
    "days": "F",
    "start": "18:00",
    "end": "22:00",
-   "location": "ME 110",
+   "location": "GITC 2315A",
    "section": "101",
    "instructor": "Belal, Ahmed",
    "title": "APPLIED THERMODYNAMICS II"
@@ -17761,7 +17761,7 @@
    "days": "MRW",
    "start": "10:00",
    "end": "14:20",
-   "location": "CKB 124",
+   "location": "KUPF 204",
    "section": "001",
    "instructor": "Rudna, Olena",
    "title": "QUANTITATIVE ANALYSIS APPL BUS"
@@ -17771,7 +17771,7 @@
    "days": "MRT",
    "start": "12:15",
    "end": "15:50",
-   "location": "CKB 124",
+   "location": "KUPF 204",
    "section": "003",
    "instructor": "Rudna, Olena",
    "title": "QUANTITATIVE ANALYSIS APPL BUS"
@@ -19247,7 +19247,7 @@
    "days": "FW",
    "start": "10:00",
    "end": "12:50",
-   "location": "KUPF 210",
+   "location": "KUPF 207",
    "section": "001",
    "instructor": "Kane, Steve",
    "title": "GENERAL PHYSICS I"
@@ -19277,7 +19277,7 @@
    "days": "RT",
    "start": "13:00",
    "end": "17:20",
-   "location": "KUPF 210",
+   "location": "KUPF 207",
    "section": "007",
    "instructor": "Ahn, Keun Hyuk",
    "title": "GENERAL PHYSICS I"
@@ -19431,7 +19431,7 @@
    "days": "FW",
    "start": "10:00",
    "end": "12:50",
-   "location": "CKB 303",
+   "location": "KUPF 207",
    "section": "003",
    "instructor": "Opyrchal, Halina",
    "title": "GENERAL PHYSICS II"
@@ -19485,7 +19485,7 @@
    "days": "MW",
    "start": "10:00",
    "end": "14:20",
-   "location": "KUPF 207",
+   "location": "KUPF 210",
    "section": "001",
    "instructor": "Kane, Steve",
    "title": "PHYSICS I"
@@ -19495,7 +19495,7 @@
    "days": "FM",
    "start": "10:00",
    "end": "15:50",
-   "location": "KUPF 207",
+   "location": "KUPF 210",
    "section": "003",
    "instructor": "Kane, Steve",
    "title": "PHYSICS I"
@@ -19505,7 +19505,7 @@
    "days": "RT",
    "start": "10:00",
    "end": "15:50",
-   "location": "KUPF 210",
+   "location": "KUPF 207",
    "section": "005",
    "instructor": "Dias, Cristiano",
    "title": "PHYSICS I"
@@ -19515,7 +19515,7 @@
    "days": "RT",
    "start": "08:30",
    "end": "15:50",
-   "location": "KUPF 108",
+   "location": "KUPF 210",
    "section": "007",
    "instructor": "Dias, Cristiano",
    "title": "PHYSICS I"
@@ -19525,7 +19525,7 @@
    "days": "MW",
    "start": "08:30",
    "end": "11:20",
-   "location": "KUPF 210",
+   "location": "KUPF 207",
    "section": "009",
    "instructor": "Hijazi, Hussein",
    "title": "PHYSICS I"
@@ -19555,7 +19555,7 @@
    "days": "FT",
    "start": "08:30",
    "end": "14:20",
-   "location": "KUPF 210",
+   "location": "KUPF 108",
    "section": "015",
    "instructor": "Wang, Haimin",
    "title": "PHYSICS I"
@@ -19635,7 +19635,7 @@
    "days": "MR",
    "start": "10:00",
    "end": "15:50",
-   "location": "KUPF 210",
+   "location": "KUPF 108",
    "section": "031",
    "instructor": "Opyrchal, Jan",
    "title": "PHYSICS I"
@@ -20079,7 +20079,7 @@
    "days": "RT",
    "start": "13:00",
    "end": "14:20",
-   "location": "KUPF 208",
+   "location": "KUPF 210",
    "section": "003",
    "instructor": "Gokce, Oktay",
    "title": "PHYSICS II"
@@ -20089,7 +20089,7 @@
    "days": "MW",
    "start": "11:30",
    "end": "14:20",
-   "location": "TIER LECT 2",
+   "location": "FMH 110",
    "section": "005",
    "instructor": "Shneidman, Vitaly",
    "title": "PHYSICS II"
@@ -20109,7 +20109,7 @@
    "days": "MR",
    "start": "08:30",
    "end": "14:20",
-   "location": "TIER 112",
+   "location": "TIER LECT 2",
    "section": "009",
    "instructor": "Shneidman, Vitaly",
    "title": "PHYSICS II"
@@ -20119,7 +20119,7 @@
    "days": "MW",
    "start": "08:30",
    "end": "09:50",
-   "location": "TIER 108",
+   "location": "TIER LECT 2",
    "section": "011",
    "instructor": "Shneidman, Vitaly",
    "title": "PHYSICS II"
@@ -20363,7 +20363,7 @@
    "days": "MW",
    "start": "11:30",
    "end": "12:50",
-   "location": "KUPF 211",
+   "location": "KUPF 105",
    "section": "001",
    "instructor": "Gerrard, Andrew",
    "title": "ELECTRICITY & MAGNTSM ECE APPL"
@@ -20373,7 +20373,7 @@
    "days": "MW",
    "start": "10:00",
    "end": "12:50",
-   "location": "KUPF 204",
+   "location": "KUPF 211",
    "section": "003",
    "instructor": "Gerrard, Andrew",
    "title": "ELECTRICITY & MAGNTSM ECE APPL"
@@ -20645,7 +20645,7 @@
    "days": "MW",
    "start": "13:00",
    "end": "14:20",
-   "location": "ECEC 115",
+   "location": "KUPF 209",
    "section": "HM1",
    "instructor": "Jerez, Andres",
    "title": "PHYSICS III"
