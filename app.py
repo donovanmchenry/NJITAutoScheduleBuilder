@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 """
 Tiny Flask wrapper (v2) — now returns **ALL** clash-free schedules
 =================================================================
@@ -83,50 +83,132 @@ def find_schedules(courses: List[str], start_ok: int, end_ok: int, days_ok: Set[
         if count >= MAX_SOLNS:
             break
 
-# ─────────────────────────────────────── HTML ───────────────────────────────────────────────
+# ─────────────────────────────────────── HTML (updated for NJIT branding) ─────────────────────────────────────────────
 TEMPLATE = """
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>NJIT Auto Schedule Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body{font-family:system-ui, sans-serif;max-width:720px;margin:40px auto;padding:0 1rem}
-    label{display:block;margin-top:1rem;font-weight:600}
-    input,button{width:100%;padding:.5rem;font-size:1rem}
-    button{margin-top:1.25rem;cursor:pointer;border:none;border-radius:.5rem;background:#d62828;color:#fff}
-    pre{background:#f7f7f7;padding:1rem;border-radius:.5rem;white-space:pre-line}
-    h2{margin-top:2rem;color:#333}
+    :root{
+      --njit-red:#cc0033;   /* primary brand color */
+      --njit-dark:#262626;  /* dark neutral for text */
+      --gray-100:#f5f5f5;
+      --gray-300:#e0e0e0;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Open Sans',Helvetica,Arial,sans-serif;
+      background:var(--gray-100);
+      color:var(--njit-dark);
+    }
+    header{
+      background:var(--njit-red);
+      padding:0.75rem 1rem;
+      display:flex;
+      align-items:center;
+    }
+    header img{
+      height:40px;
+    }
+    main{
+      max-width:900px;
+      margin:2rem auto;
+      padding:0 1rem;
+    }
+    .card{
+      background:#fff;
+      padding:2rem;
+      border-radius:0.75rem;
+      box-shadow:0 2px 8px rgba(0,0,0,.05);
+    }
+    h1{
+      margin-top:0;
+      font-size:1.75rem;
+      font-weight:600;
+      color:var(--njit-dark);
+    }
+    label{
+      display:block;
+      margin-top:1rem;
+      font-weight:600;
+    }
+    input,button{
+      width:100%;
+      padding:0.6rem 0.75rem;
+      font-size:1rem;
+      border:1px solid var(--gray-300);
+      border-radius:0.5rem;
+    }
+    button{
+      margin-top:1.5rem;
+      background:var(--njit-red);
+      border:none;
+      color:#fff;
+      font-weight:600;
+      transition:background .2s;
+      cursor:pointer;
+    }
+    button:hover{
+      background:#a60027;
+    }
+    .schedules{
+      margin-top:2rem;
+    }
+    .schedule{
+      background:var(--gray-100);
+      border-left:4px solid var(--njit-red);
+      padding:1rem;
+      border-radius:0.5rem;
+      margin-bottom:1.25rem;
+      white-space:pre-line;
+      font-family:monospace;
+    }
   </style>
 </head>
 <body>
-  <h1>NJIT Auto Schedule Builder</h1>
-  <form method="post">
-    <label>Courses (space-separated)</label>
-    <input name="courses" placeholder="CS280 CS241 MATH333" required>
+  <header>
+    <img src="https://www.njit.edu/sites/all/themes/corporate2018dev/logo.svg" alt="NJIT logo">
+  </header>
+  <main>
+    <div class="card">
+      <h1>Auto Schedule Builder</h1>
+      <form method="post">
+        <label for="courses">Courses (space-separated)</label>
+        <input id="courses" name="courses" placeholder="CS280 CS241 MATH333" required>
 
-    <label>Earliest start (HH:MM)</label>
-    <input type="time" name="start" value="09:00" required>
+        <label for="start">Earliest start (HH:MM)</label>
+        <input id="start" type="time" name="start" value="09:00" required>
 
-    <label>Latest finish (HH:MM)</label>
-    <input type="time" name="end" value="16:00" required>
+        <label for="end">Latest finish (HH:MM)</label>
+        <input id="end" type="time" name="end" value="16:00" required>
 
-    <label>Days allowed (e.g. MTWRF)</label>
-    <input name="days" value="MTWRF" required>
+        <label for="days">Days allowed (e.g. MTWRF)</label>
+        <input id="days" name="days" value="MTWRF" required>
 
-    <button type="submit">Find schedules</button>
-  </form>
+        <button type="submit">Find schedules</button>
+      </form>
 
-  {% if schedules is not none %}
-    <h2>{{ schedules|length }} schedule(s) found{% if schedules|length == max_solns %} (showing first {{ max_solns }}){% endif %}</h2>
-    {% if schedules %}
-      {% for sched in schedules %}
-        <pre><strong>Schedule #{{ loop.index }}</strong>\n{{ sched }}</pre>
-      {% endfor %}
-    {% else %}
-      <p><em>No schedule fits those constraints.</em></p>
-    {% endif %}
-  {% endif %}
+      {% if schedules is not none %}
+        <h2>{{ schedules|length }} schedule{{ 's' if schedules|length!=1 else '' }} found{% if schedules|length == max_solns %} (showing first {{ max_solns }}){% endif %}</h2>
+        <div class="schedules">
+          {% if schedules %}
+            {% for sched in schedules %}
+              <pre class="schedule"><strong>Schedule #{{ loop.index }}</strong>\n{{ sched }}</pre>
+            {% endfor %}
+          {% else %}
+            <p><em>No schedule fits those constraints.</em></p>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </main>
 </body>
 </html>
 """
@@ -152,8 +234,7 @@ def index():
                 for schedule in sols
             ]
         except ValueError as ve:
-            rendered_schedules = []
-            rendered_schedules.append(str(ve))
+            rendered_schedules = [str(ve)]
     return render_template_string(TEMPLATE, schedules=rendered_schedules, max_solns=MAX_SOLNS)
 
 
