@@ -81,7 +81,7 @@ Edit the cron expression to refresh more or less often, or click **“Run work
 ## 🙌 Credits & License
 
 * Original concept @donovanmchenry
-* Flask schedule solver @onovanmchenry
+* Flask schedule solver @donovanmchenry
 * **License** MIT — use it, fork it, improve it!
 
 Enjoy building the perfect schedule 🎓✨
